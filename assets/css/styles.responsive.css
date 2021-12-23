@@ -364,9 +364,7 @@
        width: 98%;
    }
 
-   #testimonials {
-       padding-bottom: 10rem;
-   }
+   
 
    .testimonial__photo {
        left: 20px;
@@ -409,5 +407,13 @@
 @media screen and (max-width:590px) {
     #profile h3 {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1318px) {
+    #testimonials {
+        height: 100%;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
     }
 }
