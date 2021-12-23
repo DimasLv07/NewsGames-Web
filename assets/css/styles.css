@@ -19,7 +19,7 @@
 * {
     scroll-behavior: smooth;
     box-sizing: border-box;
-   overflow-x: visible;
+    overflow-x: visible;
 }
 
 
@@ -39,7 +39,8 @@ a {
     font-family: 'Bebas Neue', cursive;
 }
 
-p, figcaption {
+p,
+figcaption {
     font-family: 'Sofia Pro', sans-serif;
 }
 
@@ -58,7 +59,8 @@ textarea {
     margin-left: 1.3rem;
 }
 
-input, textarea {
+input,
+textarea {
     font-size: 1.5rem;
     padding-bottom: 1rem;
     border-top-style: hidden;
@@ -66,18 +68,19 @@ input, textarea {
     border-left-style: hidden;
     border-bottom-style: groove;
     border-bottom: 4px solid #814BD7;
-    
+
 
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
 }
 
 .container {
-   width: 83%;
-   margin: auto;
-   position: relative;
+    width: 83%;
+    margin: auto;
+    position: relative;
 }
 
 #hero {
@@ -91,7 +94,7 @@ input:focus, textarea:focus {
 
 #hero h1,
 #hero button {
-   
+
     color: white;
 }
 
@@ -134,7 +137,7 @@ input:focus, textarea:focus {
     position: absolute;
     top: 8.2rem;
     right: 6.2rem;
-    transition: transform .7s  ease-in-out;
+    transition: transform .7s ease-in-out;
 }
 
 #hero img[src*="2"] {
@@ -142,7 +145,7 @@ input:focus, textarea:focus {
     top: 3.5rem;
     z-index: -1;
     right: 0rem;
-    transition: transform .7s  ease-in-out;
+    transition: transform .7s ease-in-out;
 }
 
 /* Navbar Section */
@@ -156,7 +159,7 @@ nav {
     top: 0;
     background-color: #B975FF;
     z-index: 8;
-    
+
 }
 
 nav img {
@@ -197,7 +200,7 @@ nav img {
 
 
 .menu-btn {
-    
+
     margin-right: 3rem;
     position: absolute;
     z-index: 2;
@@ -367,28 +370,30 @@ input[type="checkbox"] {
     justify-content: space-between;
 }
 
-#about img, #feature img {
-   filter: drop-shadow(0px 20px 150px rgba(0,0, 0, 0.25));
-   transition: transform ease-in-out 1s;
+#about img,
+#feature img {
+    filter: drop-shadow(0px 20px 150px rgba(0, 0, 0, 0.25));
+    transition: transform ease-in-out 1s;
 }
 
-#about img:hover, #feature img:hover {
+#about img:hover,
+#feature img:hover {
     transform: scale(1.2);
 }
 
 
-#about .text1  {
+#about .text1 {
     margin-top: 7.3rem;
     width: 48%;
     margin-bottom: 3.8rem;
-    
-    
+
+
 }
 
-#about .text2  {
-   width: 48%;
-   margin-top: 3.9rem;
-  margin-bottom: 2rem;
+#about .text2 {
+    width: 48%;
+    margin-top: 3.9rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -408,15 +413,15 @@ input[type="checkbox"] {
 
 /* Feature Section */
 
-#feature{
+#feature {
     text-align: center;
     margin-top: 13.2rem;
     color: white;
     padding-bottom: 6.2rem;
-    background-color:#9B71DF ;
+    background-color: #9B71DF;
 }
 
-#feature > article {
+#feature>article {
     display: flex;
     margin-top: 5.7rem;
     padding-left: 5rem;
@@ -471,7 +476,6 @@ input[type="checkbox"] {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap
-    
 }
 
 
@@ -660,7 +664,7 @@ input[type="checkbox"] {
 .testimonial__text {
     color: var(--dark-blue);
     flex: 0 1 57.2%;
-    
+
     z-index: 1;
     position: relative
 }
@@ -679,7 +683,6 @@ input[type="checkbox"] {
     font-weight: 300;
     line-height: 1.375;
     margin-bottom: 3.2rem
-    
 }
 
 
@@ -769,8 +772,8 @@ input[type="checkbox"] {
 }
 
 .email {
-  position: relative;
-  right: 5rem;  
+    position: relative;
+    right: 5rem;
 }
 
 
@@ -812,16 +815,16 @@ input[type="checkbox"] {
     cursor: pointer;
     text-align: center;
     margin-top: 2rem;
- }
- 
- .button-form:hover {
+}
+
+.button-form:hover {
     background: #673FA7;
     border: solid #337FED 0;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
     text-decoration: none;
- }
+}
 
 /* Footer Section  */
 
@@ -855,32 +858,22 @@ svg text {
     font-size: 600%;
     font-weight: 700;
     stroke-width: 3;
-   
+
     animation: textAnimate 8s infinite alternate;
-    
-  }
-  
-  @keyframes textAnimate {
+
+}
+
+@keyframes textAnimate {
     0% {
-      stroke-dasharray: 0 50%;
-      stroke-dashoffset:  20%;
-      fill:#B975FF
-  
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+        fill: #B975FF
     }
-    
+
     100% {
-      stroke-dasharray: 50% 0;
-      stroke-dashoffstet: -20%;
-      fill: hsla(189, 68%, 75%,0%)
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: hsla(189, 68%, 75%, 0%)
     }
-    
-  }
 
-
-
-  
-
-
-
-
-
+}
