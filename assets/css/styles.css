@@ -50,6 +50,7 @@ body>img {
     z-index: -10;
 }
 
+
 textarea {
     font-family: 'Sofia Pro', sans-serif;
     width: 64.5%;
@@ -124,12 +125,15 @@ input:focus, textarea:focus {
     color: black;
 }
 
-
+#hero img:hover {
+    transform: rotate(180deg);
+}
 
 #hero img[src*="1"] {
     position: absolute;
     top: 8.2rem;
     right: 6.2rem;
+    transition: transform .7s  ease-in-out;
 }
 
 #hero img[src*="2"] {
@@ -137,6 +141,7 @@ input:focus, textarea:focus {
     top: 3.5rem;
     z-index: -1;
     right: 0rem;
+    transition: transform .7s  ease-in-out;
 }
 
 /* Navbar Section */
@@ -361,8 +366,13 @@ input[type="checkbox"] {
     justify-content: space-between;
 }
 
-#about img {
+#about img, #feature img {
    filter: drop-shadow(0px 20px 150px rgba(0,0, 0, 0.25));
+   transition: transform ease-in-out 1s;
+}
+
+#about img:hover, #feature img:hover {
+    transform: scale(1.2);
 }
 
 
@@ -834,6 +844,36 @@ footer {
 .last-footer-text {
     padding-bottom: 3rem;
 }
+
+
+
+svg text {
+    font-family: Lora;
+    letter-spacing: 10px;
+    stroke: #ffa5d8;
+    font-size: 600%;
+    font-weight: 700;
+    stroke-width: 3;
+   
+    animation: textAnimate 8s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill:#B975FF
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    }
+    
+  }
 
 /* Responsive */
 
