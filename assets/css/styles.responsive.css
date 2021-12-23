@@ -342,3 +342,62 @@
         align-items: flex-start
     }
 }
+
+@media screen and (max-width: 370px) {
+   #hero h1 {
+       font-size: 4rem;
+   } 
+
+   #hero button {
+       width: 16rem;
+   }
+
+   #hero img {
+       width: 90%;
+   }
+
+   #about img {
+       width: 18.5rem;
+   }
+
+   #feature img {
+       width: 98%;
+   }
+
+   #testimonials {
+       padding-bottom: 10rem;
+   }
+
+   .testimonial__photo {
+       left: 20px;
+   }
+
+   #profile h1 {
+       font-size: 4rem;
+   }
+
+   #profile h3 {
+       font-size: 1rem;
+   }
+
+   .form-contact {
+       display: block;
+   }
+
+   .first-name {
+       margin-right: 0rem;
+   }
+
+   .form-contact input {
+        width: 90%;
+    }
+
+    .email {
+        top: 2rem;
+        right: 0rem;
+    }
+
+    textarea {
+        width: 85%;
+    }
+}
