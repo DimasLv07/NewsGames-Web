@@ -101,7 +101,7 @@ const sr = ScrollReveal({
 // Animasi Home
 sr.reveal('.home-text', {})
 sr.reveal('#hero button', {delay: 200})
-sr.reveal('#hero img', {origin: 'right', delay: 1000})
+sr.reveal('#hero img', {delay: 1000})
 
 // Animasi About
 sr.reveal('#about img', {delay: 500})
