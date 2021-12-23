@@ -1,3 +1,8 @@
+// set the starting position of the cursor outside of the screen
+
+
+
+
 $("#homeNav").on("click", function () {
     $("#active").click()
 });
@@ -175,6 +180,7 @@ var TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #814BD7 }";
     document.body.appendChild(css);
   };
+
 
 
 

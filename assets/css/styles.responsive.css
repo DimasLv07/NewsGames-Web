@@ -434,6 +434,7 @@ svg text {
 
 @media screen and (max-width:370px) {
     .fendriansyah {
+        font-size: 190%;
         position: absolute;
         z-index: 10;
     }
