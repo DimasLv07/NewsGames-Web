@@ -380,24 +380,34 @@
        font-size: 1rem;
    }
 
-   .form-contact {
-       display: block;
-   }
+   
+}
 
-   .first-name {
-       margin-right: 0rem;
-   }
-
-   .form-contact input {
-        width: 90%;
+@media screen and (max-width:560px) {
+    .form-contact {
+        display: block;
     }
-
-    .email {
-        top: 2rem;
-        right: 0rem;
+ 
+    .first-name {
+        margin-right: 0rem;
     }
+ 
+    .form-contact input {
+         width: 90%;
+     }
+ 
+     .email {
+         top: 2rem;
+         right: 0rem;
+     }
+ 
+     textarea {
+         width: 85%;
+     }
+}
 
-    textarea {
-        width: 85%;
+@media screen and (max-width:590px) {
+    #profile h3 {
+        font-size: 1rem;
     }
 }
